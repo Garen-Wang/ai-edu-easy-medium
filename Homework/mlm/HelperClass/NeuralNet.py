@@ -1,7 +1,7 @@
 import math
-from Assignment1.HelperClass.TrainingHistory import *
-from Assignment1.HelperClass.DataReader import *
-from Assignment1.HelperClass.HyperParameters import *
+from Homework.mlm.HelperClass.TrainingHistory import *
+from Homework.mlm.HelperClass.DataReader import *
+from Homework.mlm.HelperClass.HyperParameters import *
 
 
 class NeuralNet(object):
