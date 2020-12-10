@@ -2,7 +2,7 @@
 
 王樾 华南理工大学
 
-由于本人神经网络学习刚刚入门，大部分代码实现都参考了微软官方Tutorial。
+由于本人神经网络学习刚刚入门，大部分代码实现都参考了微软官方Tutorial。[本人学习过程与代码](https://github.com/Garen-Wang/ai-learning)也建了个repo。
 
 本报告含LaTeX公式，在本地查看或[安装插件](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima)以获得更好阅读体验。
 
