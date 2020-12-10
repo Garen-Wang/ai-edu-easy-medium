@@ -31,11 +31,15 @@
 
 正向：
 
-$XW + B = Z$
+$$XW + B = Z$$
 
 反向：
 
-$$\left\{ \begin{array}{ll} dZ = Z - Y \\ dW=X^TdZ \\ dB = dZ \end{array}\right.$$
+$$dZ = Z - Y$$
+
+$$dW=X^TdZ$$
+
+$$dB = dZ$$
 
 ### 代码实现
 
@@ -116,11 +120,29 @@ loss = 7.518152559389166e-05
 
 正向：
 
-$$\left\{ \begin{array}{ll} XW_1+B_1=Z_1 \\ Sigmoid(Z1) = A_1 \\ A_1W_2+B_2=Z_2 \\  Softmax(Z_2)=A_2 \end{array}\right.$$
+$$XW_1+B_1=Z_1$$
+
+$$Sigmoid(Z1) = A_1$$
+
+$$A_1W_2+B_2=Z_2$$
+
+$$Softmax(Z_2)=A_2$$
 
 反向：
 
-$$\left\{ \begin{array}{ll} dZ_2=A_2-Y \\ dW_2=A_1^TdZ_2 \\ dB_2=dZ_2 \\ dA_1=dZ_2W_2^T \\ dZ_1=dA_1 \odot A_1 \odot (1-A_1) \\ dW_1=X^TdZ_1 \\  dB_1=dZ_1  \end{array} \right.$$
+$$dZ_2=A_2-Y$$
+
+$$dW_2=A_1^TdZ_2$$
+
+$$dB_2=dZ_2$$
+
+$$dA_1=dZ_2W_2^T$$
+
+$$dZ_1=dA_1 \odot A_1 \odot (1-A_1)$$
+
+$$dW_1=X^TdZ_1$$
+
+$$dB_1=dZ_1$$
 
 ### 代码实现
 
